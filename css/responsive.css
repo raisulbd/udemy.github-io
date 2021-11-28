@@ -1,0 +1,514 @@
+/*// `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575px) { 
+  .header_info p {
+      display: none;
+  }   
+  
+  .search-cart .search_icon {
+    margin-left: -18px;
+  }
+
+
+.banner-con h1 {
+    font-size: 55px;
+}
+
+.reg-now-con p {
+    font-size: 20px;
+}
+
+.reg-now-con h5 {
+    font-size: 25px;
+}
+
+.reg {
+  background-color: #072c50;
+  width: 250px;
+  height: 220px;
+margin-left: -22px;
+margin-top: 13px;
+  
+}
+
+
+.reg p {
+    font-size: 12px;
+}
+
+.reg_oly input {
+    height: 30px;
+    width: 150px;
+    margin-top: 1.5rem;
+    
+}
+
+.reg_oly a {
+    
+  font-size: 14px;
+  
+  padding: 2px 5px;
+  margin-right: 45px;
+  
+}
+
+.about_part01 h5 {
+    font-size: 18px;
+}
+
+.about_part01 h6 {
+    font-size: 24px;
+}
+
+.about_part01 p {
+    font-size: 20px;
+}
+
+.about_part01 a {
+    font-size: 18px;
+}
+
+.about_part02 h6 {
+    font-size: 24px;
+}
+
+.about_part02 p {
+    font-size: 20px;
+}
+
+.event_main h5 {
+  font-size: 18px;  
+}
+
+.event_main h6 {
+  font-size: 24px;  
+}
+
+.event_d {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.event_m {
+    font-size: 14px;
+    padding-left: 34px;
+}
+
+.event_y {
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+
+.event_name {
+  margin-left: 30px;
+}
+
+.event_img img {
+    height: 70px;
+    width: 70px;
+    margin-left: -60px;
+        margin-top: 5px;
+}
+
+.event_dt {
+    font-size: 11px;
+    margin-left: -69px;
+    margin-top: 3px;
+    
+}
+
+.event_name h6 {
+    font-size: 11px;
+    margin-left: -69px;
+    margin-top: 3px;
+}
+
+.event_loc {
+    font-size: 11px;
+    margin-left: -69px;
+    margin-top: -7px;
+}
+
+.event_img_2_oly h5 {
+   font-size: 24px;   
+   padding-top: 40px;
+}
+
+.event_img_2_oly p {
+   font-size: 20px;   
+   padding-bottom: 50px;
+}
+
+.event_img_2_oly a {
+   font-size: 20px;   
+}
+
+
+.event_img_2_oly {
+    padding-bottom: 50px;
+}
+
+.testimonial_con h5 {
+    font-size: 24px; 
+    color: white; 
+    padding: 10px 10px;
+}
+
+.testimonial_con p {
+    font-size: 24px; 
+    color: white; 
+    padding: 10px 10px;
+}
+
+.testimonial_con h6 {
+    font-size: 26px; 
+    color: white; 
+    padding: 10px 10px;
+}
+
+.news_con h6 {
+    font-size: 18px;
+}
+
+.news_con h2 {
+    font-size: 26px;
+}
+
+.news_con p {
+    font-size: 20px;
+}
+
+.news h2 {
+   font-size: 24px; 
+}
+
+.news p {
+   font-size: 20px; 
+}
+
+.news ul li {
+   font-size: 16px; 
+}
+
+.partner_msg h6 {
+    font-size: 18px;
+}
+
+.partner_msg h2 {
+    font-size: 26px;
+}
+
+.contact_us h6 {
+   font-size: 18px; 
+}
+
+.contact_us h3 {
+   font-size: 26px; 
+}
+
+.contact_us p {
+   font-size: 20px; 
+}
+
+.copy_right p {
+    font-size: 12px;
+}
+
+
+}
+
+/*// `md` applies to small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+ .header_info {
+     padding: 0 0;
+ }
+
+ .login {
+     padding: 0 50px;
+     
+ }
+
+.search-cart .search_icon {
+    margin-left: -18px;
+  }
+
+
+.banner-con h1 {
+    font-size: 55px;
+}
+
+.reg-now-con p {
+    font-size: 20px;
+    margin-bottom: -1px;
+}
+
+.reg-now-con h5 {
+    font-size: 30px;
+}
+
+.reg {
+    margin-top: 15px;
+    margin-left: 82px;
+}
+
+
+
+.event_main h5 {
+  font-size: 18px;  
+}
+
+.event_main h6 {
+  font-size: 24px;  
+}
+
+.event_d {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.event_m {
+    font-size: 14px;
+    padding-left: 34px;
+}
+
+.event_y {
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+
+.event_name {
+  margin-left: 30px;
+}
+
+.event_img img {
+    height: 70px;
+    width: 70px;
+    margin-left: -60px;
+        margin-top: 5px;
+}
+
+.event_dt {
+    font-size: 11px;
+    margin-left: -69px;
+    margin-top: 3px;
+    
+}
+
+.event_name h6 {
+    font-size: 11px;
+    margin-left: -69px;
+    margin-top: 3px;
+}
+
+.event_loc {
+    font-size: 11px;
+    margin-left: -69px;
+    margin-top: -7px;
+}
+
+.event_img_2_oly h5 {
+   font-size: 24px;   
+   padding-top: 40px;
+}
+
+.event_img_2_oly p {
+   font-size: 20px;   
+   padding-bottom: 50px;
+}
+
+.event_img_2_oly a {
+   font-size: 20px;   
+}
+
+
+.event_img_2_oly {
+    padding-bottom: 50px;
+}
+
+
+.testimonial_con h5 {
+    font-size: 24px; 
+    color: white; 
+    padding: 10px 10px;
+}
+
+.testimonial_con p {
+    font-size: 24px; 
+    color: white; 
+    padding: 10px 10px;
+}
+
+.testimonial_con h6 {
+    font-size: 26px; 
+    color: white; 
+    padding: 10px 10px;
+}
+
+.news_con h6 {
+    font-size: 18px;
+}
+
+.news_con h2 {
+    font-size: 26px;
+}
+
+.news_con p {
+    font-size: 20px;
+}
+
+.news h2 {
+   font-size: 24px; 
+}
+
+.news p {
+   font-size: 20px; 
+}
+
+.news ul li {
+   font-size: 16px; 
+}
+
+.partner_msg h6 {
+    font-size: 18px;
+}
+
+.partner_msg h2 {
+    font-size: 26px;
+}
+
+.contact_us h6 {
+   font-size: 18px; 
+}
+
+.contact_us h3 {
+   font-size: 26px; 
+}
+
+.contact_us p {
+   font-size: 20px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*// `lg` applies to medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+.header_info {
+     padding: 0 0;
+     margin: -12px 0;
+ }
+
+ 
+
+.header_num {
+    margin-left: 120px;
+}
+
+
+.header_enmil {
+margin-left: 120px;
+}
+
+.login {
+    padding: 0 20px;
+    margin: -12px 0;
+}
+
+.social_icon {
+   margin-left: 380px; 
+}
+
+.reg {
+    margin-top: 20px;
+    margin-left: 173px;
+}
+
+
+
+.event_d {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.event_m {
+    font-size: 14px;
+    padding-left: 34px;
+}
+
+.event_y {
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+
+.event_name {
+  margin-left: 30px;
+}
+
+.event_img img {
+    height: 70px;
+    width: 70px;
+    margin-left: -60px;
+        margin-top: 5px;
+}
+
+.event_dt {
+    font-size: 11px;
+    margin-left: -69px;
+    margin-top: 11px;
+    
+}
+
+.event_name h6 {
+    font-size: 11px;
+    margin-left: -69px;
+    margin-top: 3px;
+}
+
+.event_loc {
+    font-size: 11px;
+    margin-left: -69px;
+    margin-top: -7px;
+}
+
+.testimonial_con h5 {
+    color: white;
+}
+
+.testimonial_con p {
+    color: white;
+}
+
+.testimonial_con h6 {
+    color: white;
+}
+
+
+
+
+ }
+
+/*// `xl` applies to large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+
+}
+
+/*// `xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { ... }

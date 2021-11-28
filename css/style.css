@@ -1,0 +1,654 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+body {
+  font-family: "Ephesis", cursive;
+  font-family: "Jost", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.raisul {
+  clear: both;
+}
+
+/* header part css code start  */
+header {
+  background-color: #072c50;
+}
+
+.header_info p {
+  color: white;
+  padding-right: 32px;
+  padding-top: 15px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header_qus {
+  padding-left: 42px;
+}
+
+.login p {
+  color: white;
+
+  padding-top: 15px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.login p a {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.social_icon li {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.social_icon li a {
+  color: white;
+}
+
+/* header part css code end */
+
+/* navbar css code start  */
+
+.navbar-collapse .navbar-nav .nav-item {
+  padding: 0 10px;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: black;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.navbar-collapse .search-cart a {
+  padding-left: 30px;
+  color: black;
+}
+
+/* navbar css code end */
+
+/* banner part css code start  */
+
+.banner_img {
+  background: url(../images/udemy-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner_oly {
+  background-color: rgba(0, 0, 0, 0.24);
+  padding: 170px 0;
+}
+
+.banner-con h1 {
+  margin-bottom: 35px;
+}
+
+.banner-con h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  color: white;
+}
+
+.banner_video .play_button {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: black;
+  margin-right: 20px;
+}
+
+.play_con {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+/* banner part css code end */
+
+/* course part css code start  */
+
+#course {
+  margin: 50px 0;
+}
+
+.course-img {
+  position: relative;
+  margin-top: 20x;
+}
+
+.course-img-oly {
+  background-color: rgba(1, 1, 39, 0.384);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.course-img-oly h6 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  margin-top: 90px;
+}
+
+.course-img-oly p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+/* course part css code end  */
+
+/* registar part css code start  */
+.reg_back_img {
+  background: url(../images/udemy-reg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reg_back_img_oly {
+  background-color: rgba(0, 0, 0, 0.452);
+  padding: 30px 0;
+}
+
+.reg-now-con p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: white;
+}
+
+.reg-now-con h5 {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  color: white;
+}
+
+.reg {
+  background-color: #072c50;
+  width: 350px;
+  height: 310px;
+  text-align: center;
+  position: relative;
+}
+
+.reg P {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 30px;
+}
+
+.reg_oly {
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  border-top-left-radius: 50%;
+}
+
+.reg_oly a {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  border: solid 1px black;
+  color: black;
+  padding: 2px 5px;
+  margin-right: 38px;
+}
+
+.reg_oly input {
+  margin-top: 3rem;
+}
+
+/* registar part css code end */
+
+/* about part css code start  */
+#about {
+  margin: 80px 0;
+}
+
+.about_part01 h5 {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.about_part01 h6 {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.about_part01 p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #6f6e6e;
+}
+
+.about_part01 a {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #072c50;
+  border: 1px solid #072c50;
+  border-radius: 20px;
+  padding: 2px 15px;
+}
+
+.about_part02 h6 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  margin-top: 25px;
+}
+
+.about_part02 p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #6f6e6e;
+}
+
+/* about part css code end */
+
+/* event part css code start  */
+#event {
+  background-color: #f6f5f4;
+  border-top: 1px solid #646c73;
+  margin-bottom: 80px;
+  padding-bottom: 50px;
+}
+
+.event_main {
+  margin-top: 80px;
+}
+
+.event_main h5 {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+}
+
+.event_main h6 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 55px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.event_01 {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.event_img {
+  margin-left: 40px;
+}
+
+.event_d {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: black;
+  padding-left: 35px;
+  margin-bottom: -12px;
+  margin-top: -5px;
+}
+
+.event_m {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #646c73;
+  padding-left: 40px;
+  margin-bottom: -12px;
+}
+
+.event_y {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: black;
+  padding-left: 10px;
+  margin-bottom: -12px;
+  margin-top: -5px;
+}
+
+.event_name {
+  margin-left: 80px;
+}
+
+.event_dt {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #646c73;
+  margin-top: 25px;
+  margin-bottom: -2px;
+}
+
+.event_dt h6 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: black;
+}
+
+.event_loc {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #646c73;
+  margin-top: -7px;
+}
+
+.event_img_2 {
+  background: url(../images/udemy-event-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event_img_2_oly {
+  background-color: rgba(0, 0, 0, 0.26);
+  margin-top: 80px;
+  padding-left: 15px;
+  padding-bottom: 80px;
+}
+
+.event_img_2_oly h5 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  color: white;
+  padding-top: 76px;
+  padding-bottom: 25px;
+}
+
+.event_img_2_oly p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.event_img_2_oly a {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 2px 15px;
+}
+
+/* event part css code end */
+
+/* testimonial part css code start  */
+
+.testimoinal_img {
+  background: url(../images/test.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 10px 8px 10px rgba(128, 128, 128, 0.521);
+}
+
+.testimonial_img_oly {
+  background-color: rgba(0, 0, 0, 0.144);
+}
+
+.testimonial_con {
+  margin-right: 5px;
+}
+
+.testimonial_con h5 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  padding-top: 60px;
+}
+
+.testimonial_con p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.testimonial_con h6 {
+  font-family: "Ephesis", cursive;
+  font-weight: 700;
+  font-size: 46px;
+  padding-bottom: 60px;
+  font-style: italic;
+}
+/* testimonial part css code end */
+
+/* latest news part css code start  */
+
+#latestNews {
+  background-color: #f4f6f5;
+  margin: 60px 0;
+  padding: 30px 0;
+}
+
+.news_con h6 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.news_con h2 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 55px;
+  padding-bottom: 20px;
+}
+
+.news_con p {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  padding-bottom: 20px;
+  color: #6f6e6e;
+}
+
+.news {
+  background-color: white;
+}
+
+.news h2 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 5px 30px;
+}
+
+.news p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 5px 30px;
+  color: #6f6e6e;
+}
+
+.news ul {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.news_comment {
+  padding-right: 30px;
+}
+
+/* latest news part css code end */
+
+/* our partner part css code start  */
+
+#ourPartner {
+  margin-bottom: 50px;
+}
+
+.partner_msg h6 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.partner_msg h2 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 55px;
+  padding-bottom: 20px;
+}
+.partner_icon_main {
+  padding-left: 25px;
+}
+/* our partner part css code end */
+
+/* footer part css code start  */
+
+footer {
+  background-color: #f4f6f5;
+  padding-top: 30px;
+}
+
+.contact_us h6 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.contact_us h3 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 55px;
+}
+
+.contact_us p {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #6f6e6e;
+}
+
+.contact_part h5 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.contact_part h6 {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #6f6e6e;
+  padding-bottom: 20px;
+}
+
+.contact_part p {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: -3px;
+}
+
+.contact_part p span {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #6f6e6e;
+}
+
+#floatingTextarea {
+  height: 200px;
+}
+
+.msg_ar {
+  margin-top: 50px;
+}
+
+.send_msg {
+  background-color: white;
+  margin-top: 20px;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.form-control {
+  border: none;
+  border-radius: 0;
+}
+
+#copyRight {
+  background-color: #072c50;
+}
+
+.copy_right {
+  text-align: center;
+  margin-bottom: -16px;
+}
+
+.copy_right p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+/* footer part css code start  */
